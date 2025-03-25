@@ -21,5 +21,28 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById('timer').innerText = `${days}d ${hours}h ${minutes}m ${seconds}s`;
     }
     
-    setInterval(functionTime, 1000);
+        setInterval(functionTime, 1000);
+
+        const imagePaths = [
+            "assets/img1.png",
+            "assets/img2.png",
+            "assets/img3.png",
+            "assets/img4.png",
+            "assets/img5.png",
+            "assets/img6.png",
+            "assets/img7.png",
+            "assets/img8.png",
+            "assets/img9.png",
+            "assets/img10.jpg",
+            "assets/img11.jpg",
+            "assets/img12.jpg",
+            "assets/img13.jpg"
+        ];
+    
+        const randomIndex = Math.floor(Math.random() * imagePaths.length);
+        const randomImage = imagePaths[randomIndex];
+    
+        const imageElement = document.getElementById("random-image");
+        imageElement.src = randomImage;
+    
 });
