@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
             "assets/img4.png",
             "assets/img5.png",
             "assets/img6.png",
-            "assets/img7.png",
+            "assets/img7.jpg",
             "assets/img8.png",
             "assets/img9.png",
             "assets/img10.jpg",
