@@ -36,7 +36,18 @@ document.addEventListener("DOMContentLoaded", () => {
             "assets/img10.jpg",
             "assets/img11.jpg",
             "assets/img12.jpg",
-            "assets/img13.jpg"
+            "assets/img13.jpg",
+            "assets/img14.jpg",
+            "assets/img15.jpg",
+            "assets/img16.jpg",
+            "assets/img17.jpg",
+            "assets/img18.jpg",
+            "assets/img19.jpg",
+            "assets/img20.jpg",
+            "assets/img21.jpg",
+            "assets/img22.jpg",
+            "assets/img23.jpg",
+            "assets/img24.jpg"
         ];
     
         const randomIndex = Math.floor(Math.random() * imagePaths.length);
