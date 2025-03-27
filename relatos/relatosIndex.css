@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: bold;
+}
+
+body{
+    min-height: 100vh;
+    background: #e0ceab;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.titulo{
+    font-size: 5vh;
+    text-align: center;
+}
+
+.relatos-button {
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+    position: flex;
+    display: flex;
+    flex-direction: row;
+}
+
+.relatos-button li {
+    color: none;
+    
+    border: 1px solid black;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 16px 24px;
+    width: 368px;
+}
+
+.relatos-button a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.relatos-button li:hover{
+    border: 1.5px solid black;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.heart-on-button {
+    margin-bottom: -3px;
+    color: red;
+}
