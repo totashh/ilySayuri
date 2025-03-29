@@ -53,8 +53,7 @@ a {
 }
 
 .coracao-elemento {
-    font-size: 50vh; 
-    color: red; 
+    font-size: 40vh; 
     animation: batimentos 1s infinite; 
 }
 
