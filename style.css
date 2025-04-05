@@ -37,6 +37,10 @@ body {
     text-align: center;
     padding: auto;
     font-size: 5vh;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    padding: 10px 0;
 }
 a {
     text-decoration: none;
@@ -57,15 +61,6 @@ a {
     animation: batimentos 1s infinite; 
 }
 
-.coracao {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: auto;
-    padding: 0;
-}
-
 .footer {
     position: absolute;
     bottom: 0;
@@ -73,7 +68,32 @@ a {
     right: 0;
     text-align: center;
     font-size: 2vh;
-    color: #000000;
     padding: 10px 0;
-    background-color: #e0ceab;
+}
+.coracao {
+    animation: batimentos 1s infinite;
+}
+.heart {
+    margin: 200px;
+    background-color: red;
+    height: 200px;
+    transform: rotate(-45deg);
+    width: 200px;
+    position: relative;
+}
+.heart:before,
+.heart:after {
+  content: "";
+  background-color: red;
+  border-radius: 50%;
+  height: 200px;
+  position: absolute;
+  width: 200px;
+}
+.heart:before {
+    top: -100px;
+}
+
+.heart:after {
+    left: 100px;
 }
