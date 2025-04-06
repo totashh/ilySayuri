@@ -39,7 +39,6 @@ body{
     z-index: 1;
     position: flex;
     display: flex;
-    flex-direction: row;
 }
 
 .relatos-button li {
