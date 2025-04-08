@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const hearts = document.querySelectorAll(".heart");
     hearts.forEach(heart => {
         // Gera uma cor aleatória (vermelho ou roxo)
-        const randomColor = Math.random() > 0.5 ?  "rgba(255, 0, 0)" :"rgba(128, 0, 128)";
+        const randomColor = Math.random() > 0.5 ?  "rgba(255, 0, 0)" :"rgba(210, 104, 236)";
         heart.style.color = randomColor;
         
         const boxShadowColor = randomColor.replace(", 1)", ", 0.2)"); 
