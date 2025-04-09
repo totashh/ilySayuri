@@ -33,7 +33,6 @@ document.addEventListener("DOMContentLoaded", () => {
             "assets/img7.jpg",
             "assets/img8.png",
             "assets/img9.png",
-            "assets/img10.jpg",
             "assets/img11.jpg",
             "assets/img12.jpg",
             "assets/img13.jpg",
@@ -41,7 +40,6 @@ document.addEventListener("DOMContentLoaded", () => {
             "assets/img15.jpg",
             "assets/img16.jpg",
             "assets/img17.jpg",
-            
             "assets/img19.jpg",
             "assets/img20.jpg",
             "assets/img21.jpg",
