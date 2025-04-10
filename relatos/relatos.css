@@ -44,6 +44,10 @@ body{
     font-size: 3vh;
 }
 
+.content h1{
+    text-align: center;
+}
+
 .back {
     
     font-size: 2vh;
